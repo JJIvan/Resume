@@ -3,6 +3,9 @@
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
 
 /* Colors */
 $body: #CAE5E7;
@@ -219,6 +222,10 @@ aside {
   h1 {
     font-size: 150%;
     margin-top: 29px;
+  }
+  p {
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   a {
     color: #333;

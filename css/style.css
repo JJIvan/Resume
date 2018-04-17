@@ -197,6 +197,18 @@ section h2 span {
 section p {
   line-height: 1.5;
 }
+section .education h1 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+section .education div {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+section .education div h2 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+section .education div p {
+  font-family: 'Noto Sans TC', sans-serif;
+}
 section .education p {
   margin-top: 3px;
 }
@@ -228,6 +240,11 @@ aside h1 {
 aside p {
   font-weight: bold;
   font-family: 'Noto Sans TC', sans-serif;
+}
+aside p i {
+  margin-top: 6px;
+  font-weight: 400;
+  display: block;
 }
 aside a {
   color: #333;

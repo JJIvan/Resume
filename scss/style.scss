@@ -198,8 +198,22 @@ section {
   p {
     line-height: 1.5;
   }
-  .education p {
-    margin-top: 3px; 
+  .education {
+    h1 {
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    div {
+      font-family: 'Noto Sans TC', sans-serif;
+      h2 {
+        font-family: 'Noto Sans TC', sans-serif;
+      }
+      p {
+        font-family: 'Noto Sans TC', sans-serif;
+      }
+    }
+    p {
+      margin-top: 3px;
+    }
   }
   @include breakpoint(thin) {
     width: 100%;  
@@ -226,6 +240,11 @@ aside {
   p {
     font-weight: bold;
     font-family: 'Noto Sans TC', sans-serif;
+    i {
+      margin-top: 6px;
+      font-weight: 400;
+      display: block;
+    }
   }
   a {
     color: #333;

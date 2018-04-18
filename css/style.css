@@ -197,10 +197,6 @@ section h2 span {
 section p {
   line-height: 1.5;
 }
-section p em {
-  color: orange;
-  font-weight: bold;
-}
 section .education h1 {
   font-family: 'Noto Sans TC', sans-serif;
 }
@@ -224,6 +220,10 @@ section .education p {
 
 .work .block {
   margin-bottom: 30px;
+}
+.work .block p em {
+  color: orange;
+  font-weight: bold;
 }
 
 aside {
